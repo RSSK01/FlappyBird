@@ -1,0 +1,21 @@
+    inputs
+bird y, top pipe, bottom pipe
+we do not need bird x because bird x does not change.
+
+    output
+jump or do nothing(do not jump)
+
+    activation function
+TanH
+large positive number is going to be close to 1
+large negative number is going to be close to -1
+1 = jump, -1 = do not jump
+
+    population size
+100 birds / generation
+
+    fitness function (how birds are going to grow and get better)
+distance (how far it goes)
+
+    max generations
+30
